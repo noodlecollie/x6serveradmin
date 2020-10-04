@@ -9,7 +9,7 @@ __DEPENDENCIES = \
 
 __PIP = "pip3"
 
-if len(sys.argv > 1):
+if len(sys.argv) > 1:
 	__PIP = sys.argv[1]
 
 for dep in __DEPENDENCIES:

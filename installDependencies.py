@@ -7,7 +7,7 @@ __DEPENDENCIES = \
 	"wget"
 ]
 
-__PIP = "pip"
+__PIP = "pip3"
 
 if len(sys.argv > 1):
 	__PIP = sys.argv[1]
